@@ -1,0 +1,127 @@
+body {
+    padding:            0px;
+    margin:             0px;
+    height:             5000px;
+}
+.space-top {height: 60px;}
+.bar-page {
+    background-color:   #40A286;
+    width:              20%;
+    height:             100%;
+    position:           fixed;
+}
+.bar-page-min {
+    width:              5%;
+}
+    .bar-head {
+        background-color:   #000;
+        height:             60px;
+        width:              100%;
+    }
+        .img-logo-max{
+            width: 160px;
+            height: 40px;
+            margin-left: 10px;
+            margin-top: 10px;
+            position: absolute;
+        }
+        .img-logo-min{
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            display: none;
+            position: absolute;
+        }
+
+
+    .bar-line {
+        background-color:   #368A72;
+        width:              100%;
+        padding:            20px;
+        border-bottom:      4px solid #40A286;
+        color:              #FFF;
+        display:            flex;
+    }
+    .bar-line:hover {
+        background-color:   #4E4E4E;
+        cursor: pointer;
+    }
+        .line-desc {
+            width: 90%;
+        }
+        .line-desc-min {
+            display: none;
+        }
+        .line-icon {
+            width: 10%;
+            text-align: center;
+            font-size: 18px;
+        }
+        .line-icon-min {
+            width: 100%;
+        }
+
+    .drop-line-min {
+        height: 200px;
+    }
+
+.bar-topo {
+    background-color:   #4E4E4E;
+    width:              100%;
+    height:             60px;
+    display:            flex;
+    position:           fixed;
+    z-index:            999;
+}
+    .icon-bar {
+        width: 60px;
+        height: 60px;
+        font-size: 32px;
+        text-align: center;
+        color: #FFF;
+        line-height: 60px;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+    .calendario {
+        color: #FFF;
+        width: 70px;
+        line-height: 25px;
+        text-align: center;
+        font-size: 16px;
+        font-family: monospace;
+        opacity: 0.9;
+    }
+    .diaMes {
+        display: flex;
+        border-bottom: 1px dotted #FFF;
+    }
+    .dia {
+        width: 50%;
+    }
+    .mes {
+        width: 50%;
+    }
+    .sem {
+        color: #368A72;
+    }
+
+.body-page {
+    background-color:   #FFF;
+    width:              80%;
+    margin-left:        20%;
+}
+.body-page-min {
+    width:              95%;
+    margin-left:        5%;
+}
+
+.container {
+    width: 100%;
+}
+.row {
+    margin: 0;
+}
+.show-element{
+    display: block;
+}
