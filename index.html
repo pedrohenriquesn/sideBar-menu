@@ -10,11 +10,14 @@
     <link rel="stylesheet" href="bootstrap/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/consumo.css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery-ui.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/consumo.js"></script>
 
 </head>
 <body>
@@ -65,23 +68,50 @@
             <div class="space-top"></div>
             <!-- Area da pagina -->
 
-                <div class="row">
-                    <div class="col-md-12"></div>
-                </div>
-                <div class="row">
-                    <div class="col-md-4 box-consumo">
-                        <div>
-                            <img src="imagens/drink-folded-icon.png" alt="">
+            <div class="col-md-2 field-botoes">
+<!--                 <div class="row">
+                    <div class="col-md-12 box-consumo">
+                        <div class="box-content">
+                            <img class="img-opcao" src="imagens/drink-folded-icon.png" alt="">
                         </div>
                     </div>
-                    <div class="col-md-4 box-consumo"><div></div></div>
-                    <div class="col-md-4 box-consumo"><div></div></div>
-                </div>
                 <div class="row">
-                    <div class="col-md-4 box-consumo"><div></div></div>
-                    <div class="col-md-4 box-consumo"><div></div></div>
-                    <div class="col-md-4 box-consumo"><div></div></div>
                 </div>
+                    <div class="col-md-12 box-consumo">
+                        <div class="box-content">
+                            <img class="img-opcao" src="imagens/barcode-folded-icon.png">
+                        </div>
+                    </div>
+                <div class="row">
+                </div>
+                    <div class="col-md-12 box-consumo">
+                        <div class="box-content">
+                            <img class="img-opcao" src="imagens/123-bullets-folded-icon.png">
+                        </div>
+                    </div>
+                </div> -->
+
+                <div>
+                    <div class="col-md-12">
+                        <input type="checkbox" checked data-toggle="toggle" data-on="Consumo" data-off="ADD Consumo" data-onstyle="danger" data-offstyle="success" />
+                    </div>
+                </div>
+
+                <div>
+                    <div class="col-md-12">
+                        <input type="checkbox" checked data-toggle="toggle" data-on="<span class='glyphicon glyphicon-plus'></span> Consumo" data-off="<i class='fa fa-pause'></i> Pause" />
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+
+            <div class="col-md-10 field-botoes">
+                <div class="col-md-12"></div>
+            </div>
 
         </div>
 
