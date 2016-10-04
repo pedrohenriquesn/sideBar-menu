@@ -48,6 +48,7 @@ body {
     }
         .line-desc {
             width: 90%;
+            font-family:androgyne;
         }
         .line-desc-min {
             display: none;
@@ -89,7 +90,7 @@ body {
         line-height: 25px;
         text-align: center;
         font-size: 16px;
-        font-family: monospace;
+        font-family: androgyne;
         opacity: 0.9;
     }
     .diaMes {

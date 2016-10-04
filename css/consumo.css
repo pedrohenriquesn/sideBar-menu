@@ -1,21 +1,36 @@
-.box-consumo{
-    height: 70px;
-    padding: 10px;
+.box-option {
     cursor: pointer;
+    text-align: center;
+    padding: 10px;
+    background-color: #40A286;
+    height: 80px;
+    border-radius: 10px;
+        box-shadow: 3px 3px 15px #4E4E4E;
 }
 
-.box-consumo .box-content{
-    height: 100%;
-    border-radius: 40px;
-    background-color: #55d5af;
+.icon-option {
+    height: 60px;
+    width: 60px;
 }
 
-.box-consumo div img{
-    height: 50px;
-    width: 50px;
-    border-radius: 40px;
+.text-option {
+    color: #FFF;
+    opacity: 0;
+    font-family: androgyne;
+    font-size: 25px;
 }
 
 .box-selected {
-    float: right;
+    height: 140px;
+    background-color: #368A72;
 }
+
+.icon-selected {
+    height: 80px;
+    width: 80px;
+    margin-bottom: 10px
+}
+.text-selected {
+    opacity: 1;
+}
+
