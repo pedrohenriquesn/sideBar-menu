@@ -19,6 +19,7 @@
     <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
     <script src="js/sidebar.js"></script>
     <script src="js/consumo.js"></script>
+    <script src="js/main-ajax.js"></script>
 
 </head>
 <body>
@@ -35,7 +36,7 @@
                 <span class="line-desc">Home</span>
                 <span class="line-icon glyphicon glyphicon-home"></span>
             </div>
-            <div class="bar-line">
+            <div class="bar-line" id="consumo">
                 <span class="line-desc">Consumo</span>
                 <span class="line-icon glyphicon glyphicon-usd"></span>
             </div>
@@ -69,31 +70,13 @@
             <div class="space-top"></div>
             <!-- Area da pagina -->
 
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="box-option" data-toggle="tooltip" data-placement="left" title="Drink !">
-                        <img class="icon-option" src="imagens/drink-icon.png">
-                        <div class="text-option">Drink</div>
-                    </div>
+            <div id="glue-options"></div>
+            <div id="glue-forms">
+
+                <div class="row">
+                    <div class="col-md-12"></div>
                 </div>
-                <div class="col-md-3">
-                    <div class="box-option" data-toggle="tooltip" data-placement="left" title="Food !">
-                        <img class="icon-option" src="imagens/bullets-icon.png">
-                        <div class="text-option">Food</div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="box-option" data-toggle="tooltip" data-placement="left" title="Outros !">
-                        <img class="icon-option" src="imagens/pointer-icon.png">
-                        <div class="text-option">Outros</div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="box-option" data-toggle="tooltip" data-placement="left" title="Consultar !">
-                        <img class="icon-option" src="imagens/barcode-icon.png">
-                        <div class="text-option">Consultar</div>
-                    </div>
-                </div>
+
             </div>
 
 

@@ -5,7 +5,7 @@
     background-color: #40A286;
     height: 80px;
     border-radius: 10px;
-        box-shadow: 3px 3px 15px #4E4E4E;
+    box-shadow: 3px 3px 15px #4E4E4E;
 }
 
 .icon-option {
@@ -25,12 +25,12 @@
     background-color: #368A72;
 }
 
-.icon-selected {
+.box-selected .icon-option{
     height: 80px;
     width: 80px;
     margin-bottom: 10px
 }
-.text-selected {
+
+.box-selected .text-option{
     opacity: 1;
 }
-
